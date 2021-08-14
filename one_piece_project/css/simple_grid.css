@@ -1,0 +1,413 @@
+/* COVER STORIES */
+
+.grid_sto1 {
+    display: grid;
+    grid-template-columns: 560px;
+}
+
+.grid_sto2 {
+    display: grid;
+    grid-template-columns: 25px 475px 30px 30px;
+}
+
+.grid_sto3 {
+    display: grid;
+    grid-template-columns: 560px;
+}
+
+.grid_form_sto1 {
+    display: grid;
+    grid-template-columns: 560px;
+}
+
+.grid_form_sto2 {
+    display: grid;
+    grid-template-columns: 30px 530px;
+}
+
+.grid_form_sto3 {
+    display: grid;
+    grid-template-columns: 30px 30px 478px 22px;
+}
+
+.grid_form_sto div input {
+    border: 1px solid;
+    height: 22px;
+}
+
+/* BOUNTIES */
+
+.grid_head_bou {
+    display: grid;
+    grid-template-columns: 100px 100px 120px;
+}
+
+.grid_form_bou {
+    display: grid;
+    grid-template-columns: 100px 100px 30px 30px 30px 30px 22px;
+}
+
+/* CHARACTER LIST */
+
+.grid_head_cha {
+    display: grid;
+    grid-template-columns: 150px 100px 100px 170px 120px;
+}
+
+.grid_form_cha {
+    display: grid;
+    grid-template-columns: 150px 100px 100px 170px 30px 30px 30px 30px 22px;
+}
+
+/* PIRATE GROUPS */
+
+.grid_head_pir {
+    display: grid;
+    grid-template-columns: 200px 120px 100px 100px 100px 120px;
+}
+
+.grid_form_pir {
+    display: grid;
+    grid-template-columns: 200px 120px 100px 100px 100px 30px 30px 30px 30px 22px;
+}
+
+/* CHARACTER MISCELLANEOUS */
+
+.grid_chamis {
+    float: left;
+    margin-right: 15px;
+}
+
+.grid_head_chamis  {
+    display: grid;
+    grid-template-columns: 100px 22px 22px 22px 22px 22px 80px 80px 80px 120px;
+}
+
+.grid_form_chamis  {
+    display: grid;
+    grid-template-columns: 100px 22px 22px 22px 22px 22px 80px 80px 80px 30px 30px 30px 30px 22px;
+}
+
+.grid_head_chamis .item_ro, .grid_form_chamis .item_ro {
+    -webkit-transform: rotate(-45deg); 
+    -moz-transform: rotate(-45deg);    
+    transform:rotate(-45deg);
+}
+
+.grid_form_chamis input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+}
+
+.grid_head_charev {
+    display: grid;
+    grid-template-columns: 80px 100px 120px;
+}
+
+.grid_form_charev {
+    display: grid;
+    grid-template-columns: 80px 100px 30px 30px 30px 30px 22px;
+}
+
+.grid_head_chacel {
+    display: grid;
+    grid-template-columns: 100px 80px 100px 120px;
+}
+
+.grid_form_chacel {
+    display: grid;
+    grid-template-columns: 100px 80px 100px 30px 30px 30px 30px 22px;
+}
+
+.grid_head_chabla {
+    display: grid;
+    grid-template-columns: 80px 80px 120px;
+}
+
+.grid_form_chabla {
+    display: grid;
+    grid-template-columns: 80px 80px 30px 30px 30px 30px 22px;
+}
+
+.grid_head_chaboo {
+    display: grid;
+    grid-template-columns: 100px 25px 25px 25px 25px 120px;
+}
+
+.grid_form_chaboo {
+    display: grid;
+    grid-template-columns: 100px 25px 25px 25px 25px 30px 30px 30px 30px 22px;
+}
+
+/* HISTORY */
+
+.grid_head_his {
+    display: grid;
+    grid-template-columns: 100px 500px 120px;
+}
+
+.grid_form_his {
+    display: grid;
+    grid-template-columns: 100px 500px 30px 30px 30px 30px 22px;
+}
+
+/* PONEGLIPHS */
+
+.grid_head_pon {
+    display: grid;
+    grid-template-columns: 75px 250px 200px 50px 120px;
+}
+
+.grid_form_pon {
+    display: grid;
+    grid-template-columns: 75px 250px 200px 50px 30px 30px 30px 30px 22px;
+}
+
+/* GEOGRAPHY */
+
+.grid_head_geo {
+    display: grid;
+    grid-template-columns: 150px 100px 100px 120px 100px 100px 120px;
+}
+
+.grid_form_geo {
+    display: grid;
+    grid-template-columns: 150px 100px 100px 120px 100px 100px 30px 30px 30px 30px 22px;
+}
+
+/* KINGDOMS */
+
+.grid_kin {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 54px 102px 120px;
+}
+
+.grid_form_kin {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 54px 102px 30px 30px 30px 30px 22px;
+}
+
+/* NAVY */
+
+.grid_nav {
+    display: grid;
+    grid-template-columns: 100px 100px 120px;
+}
+
+.grid_form_nav {
+    display: grid;
+    grid-template-columns: 100px 100px 30px 30px 30px 30px 22px;
+}
+
+/* DEVIL FRUITS */
+
+.grid_dev_log {
+    display: grid;
+    grid-template-columns: 50px 120px 100px 500px 120px 100px 120px 120px ;
+}
+
+.grid_form_dev_log {
+    display: grid;
+    grid-template-columns: 50px 120px 100px 500px 120px 100px 120px 30px 30px 30px 30px 22px;
+}
+
+.grid_dev_zoan {
+    display: grid;
+    grid-template-columns: 50px 120px 100px 120px 120px;
+}
+
+.grid_form_dev_zoan {
+    display: grid;
+    grid-template-columns: 50px 120px 100px 120px 30px 30px 30px 30px 22px;
+}
+
+.grid_dev_para {
+    display: grid;
+    grid-template-columns: 50px 120px 600px 100px 120px 120px;
+}
+
+.grid_form_dev_para {
+    display: grid;
+    grid-template-columns: 50px 120px 600px 100px 120px 30px 30px 30px 30px 22px;
+}
+
+/* WEAPONS */
+
+.grid_wea_0 {
+    position: absolute;
+}
+
+.grid_wea_1 {
+    position: absolute;
+    margin-left: 400px;
+}
+
+.grid_wea_2 {
+    position: absolute;
+    margin-left: 800px;
+}
+
+.grid_wea_3 {
+    position: absolute;
+    margin-left: 1200px;
+}
+
+.grid_wea_4 {
+    position: absolute;
+    margin-left: 1600px;
+}
+
+.grid_wea_f {
+    position: absolute;
+    margin-top: 50px;
+}
+
+.grid_head_wea {
+    display: grid;
+    grid-template-columns: 120px 80px 80px 120px;
+}
+
+.grid_form_wea {
+    display: grid;
+    grid-template-columns: 120px 80px 80px 100px 30px 30px 30px 30px 22px;
+}
+
+/* TIMELINE */
+
+.grid_tim {
+    display: grid;
+    grid-template-columns: 28px 300px 120px;
+}
+
+.grid_form_tim {
+    display: grid;
+    grid-template-columns: 28px 300px 30px 30px 30px 30px 22px;
+}
+
+/* MISCELLANEOUS */
+
+.grid_mis {
+    float: left;
+    margin-right: 30px;
+}
+
+.grid_head_mis {
+    display: grid;
+    grid-template-columns: 120px 120px;
+}
+
+.grid_head_misluf {
+    display: grid;
+    grid-template-columns: 120px 120px;
+}
+
+.form_mis {
+    float: left;
+    margin-right: 15px;
+}
+
+.grid_form_mis {
+    display: grid;
+    grid-template-columns: 120px 30px 30px 30px 30px 22px;
+}
+
+/* FILLER FRUITS */
+
+.grid_fil_log {
+    display: grid;
+    grid-template-columns: 50px 120px 100px 500px 120px 100px 120px 200px;
+}
+
+.grid_form_fil_log {
+    display: grid;
+    grid-template-columns: 50px 120px 100px 500px 120px 100px 120px 200px 25px;
+}
+
+.grid_fil_zoan {
+    display: grid;
+    grid-template-columns: 50px 120px 100px 120px 200px;
+}
+
+.grid_form_fil_zoan {
+    display: grid;
+    grid-template-columns: 50px 120px 100px 120px 200px 25px;
+}
+
+.grid_fil_para {
+    display: grid;
+    grid-template-columns: 50px 120px 600px 100px 120px 200px;
+}
+
+.grid_form_fil_para {
+    display: grid;
+    grid-template-columns: 50px 120px 600px 100px 120px 200px 25px;
+}
+
+/* GRID ITEMS */
+
+input[type=text] {
+    height: 22px;
+    border: 1px solid;
+    padding: 1px 2px;
+}
+
+.item {
+    height: 22px;
+    border: 1px solid;
+    padding: 1px 2px;
+}
+
+.item_red {
+    height: 22px;
+    border: 1px solid;
+    padding: 1px;
+    text-decoration: line-through red 2px;
+}
+
+input[type=submit] {
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    border: 1px solid;
+    font-size: 16.5px;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+/* UPDATE */
+
+.search_update {
+    margin: 8px 2px;
+}
+
+.search_update input[type=submit] {
+    width: 58px;
+}
+
+.check {
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+    border: none;
+    background-color: black;
+}
+
+.grid_func_bou {
+    display: grid;
+    grid-template-columns: 100px 100px 22px 30px 30px 30px 30px 22px;
+}
+
+.grid_func_inf {
+    display: grid;
+    grid-template-columns: 30px 30px 30px 30px 500px 22px;
+}
+
+.grid_func_sto1 {
+    display: grid;
+    grid-template-columns: 550px;
+}
+
+.grid_func_sto2 {
+    display: grid;
+    grid-template-columns: 25px 475px 25px 25px 550px 22px;
+}

@@ -1,0 +1,121 @@
+.grid {
+    display: inline-block;
+}
+
+.grid_head {
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+
+.grid_names {
+    display: grid;
+    grid-template-columns: 300px auto;
+}
+
+.grid_content_1 {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    float: left;
+}
+
+.grid_content_2 {
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 300px;
+}
+
+.grid_form_cha_head {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 120px
+}
+
+.grid_form_cha {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 30px 30px 30px 30px 22px;
+}
+
+.grid_form_cha input, .grid_form_inf input {
+    border: 1px solid;
+}
+
+.grid_form_inf_head {
+    display: grid;
+    grid-template-columns: 220px;
+}
+
+.grid_form_inf {
+    display: grid;
+    grid-template-columns: 100px 30px 30px 30px 30px;
+}
+
+.item input:not(.small_text):not(input[type=submit]) {
+    width: 98px;
+    height: 21px;
+}
+
+.item {
+    border: 1px solid;
+    padding: 1px;
+}
+
+.grid div div {
+    padding: 1px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.color_eas {
+    color: rgba(255, 241, 215, 0.986);
+    background-color: rgb(160, 200, 236);
+    border: 1px solid  rgb(160, 200, 236);
+}
+
+.color_eas_2 {
+    color: rgb(160, 200, 236);
+    background-color: rgb(255, 241, 215);
+    border: 1px solid  rgba(255, 241, 215);
+    text-align: center;
+}
+
+.color_bar {
+    color: rgba(253, 226, 176);
+    background-color: rgb(158, 13, 13);
+    border: 1px solid  rgb(158, 13, 13);
+}
+
+.color_bar_2 {
+    color: rgb(158, 13, 13);
+    background-color: rgb(253, 226, 176);
+    border: 1px solid  rgba(253, 226, 176);
+    text-align: center;
+}
+
+.check {
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+    border: none;
+    background-color: black;
+}
+
+form .grid_form_cha .item {
+    padding: 0;
+    background-color: black;
+}
+
+input[type=submit] {
+    width: 21px;
+    background-color: white;
+    border: 1px solid;
+    font-size: 16.5px;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+.big_text {
+    width: 220px;
+    height: 110px;
+    border: 1px solid;
+    resize: none;
+}
